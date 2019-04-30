@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: 'pudelinaregular';
+    src: url(../fonts/Pudelina-webfont.ttf) format('truetype');
+ }
+ 
 // nav
 nav {
     display: flex;
@@ -15,7 +20,7 @@ nav {
         display: flex;
         justify-content: space-around;
         width: 70vw;
-        min-width: 600px;
+        min-width: 750px;
         li {
             display: flex;
             align-items: center;
@@ -23,8 +28,8 @@ nav {
             a {
                 text-decoration: none;
                 font-family: 'Lato', sans-serif;
-                font-size: 15px;
-                color: #333;
+                font-size: 1.3em;
+                color: #82298F;
             } 
         }
     }
@@ -35,11 +40,45 @@ nav {
 // hero
 .hero {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
     height: 100vh;
     min-height: 750px;
     background: url(/images/hero/hero_BG.jpg) no-repeat center;
     background-size: cover;
+    .hero_bar {
+        display: flex;
+        flex-flow: column nowrap;
+        .slogon {
+            font-family: "pudelinaregular", Helvetica, Arial, sans-serif;
+            color: #82298F;
+            font-size: 3.3em;
+            text-transform: uppercase;
+            text-align: right;
+            padding-right: 1em;
+            width: 8em;
+            line-height: 1.1;
+        }
+        .hero_bar_bottom {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Lato', sans-serif;
+            font-size: 2em;
+            color: #82298F;
+            width: 13em;
+            padding-top: 1em;
+            p {
+                padding: 0 .5em;
+                line-height: 1.42857143;
+                greens {
+                    color: #789900;
+                }
+            }
+        }
+    }
 }
 // end hero
 
