@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+// nav
+nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 222, 255, 0.3);
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 70vw;
+        min-width: 600px;
+        li {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            a {
+                text-decoration: none;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+                color: #333;
+            } 
+        }
+    }
+}
+// end nav
+
+
+// hero
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    min-height: 750px;
+    background: url(/images/hero/hero_BG.jpg) no-repeat center;
+    background-size: cover;
+}
+// end hero
+
