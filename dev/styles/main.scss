@@ -93,20 +93,43 @@ nav {
         align-items: center;
         // showBox
         .prod_showBox {
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
             .prod_showBox_ul {
                 display: flex;
                 justify-content: center;
+                list-style: none;
+                margin-bottom: 5vmax;
                 li {
-                    display: flex;
-                    width: 10vw;
-                    height: 10vw;
-                    z-index: 10;
-                    
+                    width: 12vw;
+                    padding: 2vw;
                     a {
-                        
+                        display: block;
+                        position: relative;
+                        width: 100%;
+                        img {  
+                            filter: grayscale(80%);
+                            opacity: (0,8);
+                            width: 100%;
+                            transition: all 500ms;
+                        }
+                        img:hover {
+                            opacity: (1);
+                            filter: grayscale(0%);
+                        }
                     }
                 }
             }
+            .prod_showBox_title {
+                p {
+                    text-align: center;
+                    font-family: "pudelinaregular", Helvetica, Arial, sans-serif;
+                    color: #82298F;
+                    font-size: 2em;
+                }
+            }
+               
         }
         // textBox
         .prod_textBox {
