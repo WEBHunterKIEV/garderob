@@ -6,9 +6,6 @@
     font-family: 'pudelinaregular';
     src: url(../fonts/Pudelina-webfont.ttf) format('truetype');
  }
-body {
-    min-height: 2000px;
-}
 // nav
 nav {
     display: flex;
@@ -83,4 +80,45 @@ nav {
     }
 }
 // end hero
+#prod {
+    width: 100%;
+    min-height: 1000px;
+    background: url(/images/products/BG.jpg);
+    .prod_wrap {
+        display: flex;
+        justify-content: center;
+        .prod_textBox {
+            margin-top: 5vmax;
+            max-width: 1170px;
+            .prod_textBox_text {
+                font-family: 'Lato', sans-serif;
+                color: #3A3A3A;
+                line-height: 1.5em;
+                text-align: justify;
+                font-size: 1.1em;
+            }
+            .prod_textBox_ul {
+                margin-top: 3vmax;
+                list-style: none;
+                li {
+                    background: url(/images/products/li.png) no-repeat center left;
+                    text-align: justify;
+                    padding-left: 40px;
+                    margin-bottom: 1em;
+                    font-size: 1.2em;
+                    line-height: 1.2em;
+                }
+            }
+            violet {
+                color: violet;
+            }
+            green {
+                color: green;
+            }
+            red {
+                color: red;
+            }
+        }
+    } 
+}
 
