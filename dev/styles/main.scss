@@ -80,13 +80,35 @@ nav {
     }
 }
 // end hero
+
+
+// prod
 #prod {
     width: 100%;
     min-height: 1000px;
     background: url(/images/products/BG.jpg);
     .prod_wrap {
         display: flex;
-        justify-content: center;
+        flex-flow: column nowrap;
+        align-items: center;
+        // showBox
+        .prod_showBox {
+            .prod_showBox_ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    display: flex;
+                    width: 10vw;
+                    height: 10vw;
+                    z-index: 10;
+                    
+                    a {
+                        
+                    }
+                }
+            }
+        }
+        // textBox
         .prod_textBox {
             margin-top: 5vmax;
             max-width: 1170px;
@@ -121,4 +143,5 @@ nav {
         }
     } 
 }
+// prod
 
