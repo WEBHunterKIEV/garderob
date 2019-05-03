@@ -114,13 +114,14 @@ nav {
                             opacity: (0,8);
                             width: 100%;
                             transition: all 500ms;
-                        }
-                        img:hover {
+                        }                
+                        .Show {
                             opacity: (1);
                             filter: grayscale(0%);
                             width: 130%;
                             margin-left: -1vw;
                         }
+                        
                     }
                 }
             }
