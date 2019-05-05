@@ -100,20 +100,33 @@ nav {
                 display: flex;
                 justify-content: center;
                 list-style: none;
-                margin-bottom: 5vmax;
                 min-height: 28vw;
                 li {
                     width: 12vw;
                     padding: 2vw;
                     a {
-                        display: block;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         position: relative;
                         width: 100%;
-                        img {  
+                        .img_prod {  
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                             filter: grayscale(80%);
                             opacity: (0,8);
                             width: 100%;
                             transition: all 500ms;
+                        }
+                        .img_prod_plus {
+                            position: absolute;
+                            width: 2vw;
+                            opacity: 0;
+                            transition: all 1s;
+                            background: white;
+                            padding: 1vw;
+                            border-radius: 10%;
                         }                
                         .Show {
                             opacity: (1);
@@ -121,7 +134,9 @@ nav {
                             width: 130%;
                             margin-left: -1vw;
                         }
-                        
+                        .Show_plus {
+                            opacity: 0.5;
+                        }
                     }
                 }
             }
