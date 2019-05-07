@@ -103,18 +103,17 @@ nav {
                 width: 100%;
                 height: inherit;
                 text-decoration: none;
-                .test_prod {
-                    font-family: 'Lato', sans-serif;
-                    text-transform: uppercase;
-                    color: #82298F;
-                    font-size: 1.1em;
-                    text-align: center;
-                    max-width: 50%;
-                    margin-top: 1vmax;
-                }
                 .img_prod {
-                    width: 8vmax;
+                    width: 9vmax;
                 }
+            }
+            .test_prod {
+                font-family: 'Lato', sans-serif;
+                text-transform: uppercase;
+                color: #82298F;
+                font-size: .9em;
+                text-align: center;
+                margin-top: 1vmax;
             }
         }
     }
@@ -131,7 +130,7 @@ nav {
     // textBox
     .prod_textBox {
         margin: 0 auto;
-        padding-top: 5vmax;
+        padding-top: 15vmax;
         max-width: 1170px;
         .prod_textBox_text {
             font-family: 'Lato', sans-serif;
@@ -220,20 +219,8 @@ nav {
 }
 // end footer
 
-/*
-// page
-.page_wrap {
-    width: 100%;
-    background: white;
-    margin: 0 auto;
-    margin-top: 100px;
-    min-height: 100vh;
-    background: url(/images/products/BG.jpg);
-    .page {
-        max-width: 1170px;
-        background: white;
-        min-height: 50vh;
-    }
-}*/
+
+
+
 
 
