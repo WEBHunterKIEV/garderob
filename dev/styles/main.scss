@@ -88,6 +88,7 @@ nav {
         justify-content: space-around;
         list-style: none;
         width: 90vw;
+        height: 10vw;
         margin-bottom: -2vmax;
         li {
             width: 15vmax;
@@ -95,6 +96,7 @@ nav {
             background: rgba(233, 230, 233, 0.9);
             box-shadow: 0 0 10px rgba(0,0,0,0.3);
             border-radius: 50%;
+            transition: all 1s;
             a {
                 display: flex;
                 flex-flow: column nowrap;
@@ -104,17 +106,23 @@ nav {
                 height: inherit;
                 text-decoration: none;
                 .img_prod {
-                    width: 9vmax;
+                    width: 50%;
+                    transition: all 1s;
                 }
             }
             .test_prod {
                 font-family: 'Lato', sans-serif;
                 text-transform: uppercase;
                 color: #82298F;
-                font-size: .9em;
+                font-size: .8em;
                 text-align: center;
                 margin-top: 1vmax;
+                transition: all 1s;
             }
+        }
+        .prod_li_show {
+            width: 17vmax;
+            height: 17vmax;
         }
     }
 }
