@@ -47,6 +47,7 @@ nav {
     min-height: 750px;
     background: url(/images/hero/hero_BG.jpg) no-repeat center;
     background-size: cover;
+    z-index: 1;
     .hero_bar {
         display: flex;
         position: absolute;
@@ -54,6 +55,7 @@ nav {
         right: 0;
         top: calc(50vh - 100px);
         flex-flow: column nowrap;
+        z-index: 2;
         .slogon {
             font-family: "pudelinaregular", Helvetica, Arial, sans-serif;
             color: #82298F;
@@ -90,6 +92,7 @@ nav {
         width: 90vw;
         height: 10vw;
         margin-bottom: -2vmax;
+        z-index: 3;
         li {
             width: 15vmax;
             height: 15vmax;
